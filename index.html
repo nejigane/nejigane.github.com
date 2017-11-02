@@ -1,49 +1,80 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
- "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ja">
+<!DOCTYPE html>
+<html>
   <head>
-    <meta http-equiv="Content-Type" content="application/xhtml+xml; charset=UTF-8" />
-    <title>NZ</title>
-    <meta name="description" content="Releasing original software libraries." />
-    <meta name="keywords" content="ActionScript3.0,Perl,Processing" />
-    <meta name="author" content="Yu Nejigane" />
-    <meta name="copyright" content="(C)2010 Yu Nejigane" />
-    <link rel="stylesheet" type="text/css" media="screen" href="./css/main.css" />
-    <link rel="icon" type="image/x-icon" href="./favicon.ico" />
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+    <link rel="image_src" type="image/jpeg" href="images/logo.jpeg">
+    <title>Yu Nejigane</title>
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.min.js"
+      integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+      crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/semantic-ui@2.2.13/dist/semantic.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/semantic-ui@2.2.13/dist/semantic.min.js"></script>
+    <style type="text/css">
+      div.ui.card {
+        margin-bottom: 2em;
+      }
+    </style>
   </head>
   <body>
-    <div id="container">
-      <h1><a href="./index.html"><img src="./images/title.jpg" /></a></h1>
-      <h2>Software</h2>
-      <ul>
-	<li><a href="http://wiki.github.com/nejigane/Bubu">Bubu</a> <span class="tech">C++</span> <span class="license">MIT</span></li>
-	<ul>
-	  <li>Compact full-text search engine written in C++. (Character bi-gram for UTF8-encoded text.)</li>
-	  <li>Now under developing...</li>
-	</ul>
-	<li><a href="http://search.cpan.org/~nejigane/Language-MinCaml-0.01/">Language::MinCaml</a> (CPAN module) <span class="tech">Perl</span> <span class="license">Artistic, GPL</span></li>
-	<ul>
-	  <li>Perl implementation of MinCaml interpreter.</li>
-	  <li>Current version 0.01 ( Last updated on 2008/12/10 )</li>
-	</ul>
-      </ul>
-      <h2>Applications</h2>
-      <ul>
-	<li><a href="http://www.tinypixelapps.com/">TinyPixels</a> <span class="tech">Objective-C</span></li>
-	<ul>
-	  <li>A pixel-wise painting application designed for iPhone and iPod touch.</li>
-	  <li>Now version 1.5 is available on the App Store.</li>
-	  <li>The <a href="http://www.tinypixelapps.com/tinypixelslite/">lite version</a> and the <a href="http://www.tinypixelapps.com/tinypixelsforipad/">iPad edition</a> are also available!
-	  <div>
-	    <img class="fig" src="./images/tinypixels_ss01.jpg" />
-	    <img class="fig" src="./images/tinypixels_ss02.jpg" />
-	    <img class="fig" src="./images/tinypixels_ss03.jpg" />
-	    <img class="fig" src="./images/tinypixels_ss04.jpg" />
-          </div>
-	</ul>
-      </ul>
+    <div class="ui container text">
+      <h1 class="ui header" style="margin: 1em 0 1em 0">
+	<img class="ui circular image" src="images/avatar.jpeg">
+	<div class="content">
+	  Yu Nejigane
+	  <div class="sub header">Programmer, 3DCG beginner</div>
+	</div>
+      </h1>
+      <div class="ui one column grid">
+	<div class="column">
+	  <div class="ui fluid card">
+	    <div class="image">
+              <img src="images/cinema4d.png">
+	    </div>
+	    <div class="content">
+              <span class="header">Motion Graphics</span>
+	      <div class="meta">
+		<span class="date">Rendered with Cinema4D</span>
+	      </div>
+	    </div>
+	  </div>
+	  <div class="ui fluid card">
+	    <a href="https://github.com/nejigane/webgl-experiments" class="image">
+              <img src="images/coverflow.png">
+	    </a>
+	    <div class="content">
+              <a href="https://github.com/nejigane/webgl-experiments" class="header">WebGL Experiments</a>
+	      <div class="meta">
+		<span class="date">JavaScript, Three.js and WebGL</span>
+	      </div>
+	    </div>
+	  </div>
+	  <div class="ui fluid card">
+	    <a href="https://github.com/nejigane/arduino-minimal-gui" class="image">
+	      <img src="images/arduino.png">
+	    </a>
+	    <div class="content">
+	      <a href="https://github.com/nejigane/arduino-minimal-gui" class="header">Arduino Minimal GUI</a>
+	      <div class="meta">
+		<span class="date">Electronic Prototyping with Arduino Uno</span>
+	      </div>
+	    </div>
+	  </div>
+	  <div class="ui fluid card">
+	    <a href="https://nejigane.github.io/tinypixels/" class="image">
+	      <img src="images/tinypixels.jpeg">
+	    </a>
+	    <div class="content">
+	      <a href="https://nejigane.github.io/tinypixels/" class="header">TinyPixels</a>
+	      <div class="meta">
+		<span class="date">iOS Application written in Objective-C</span>
+	      </div>
+	    </div>
+	  </div>
+	</div>
+      </div>
     </div>
   </body>
 </html>
-
